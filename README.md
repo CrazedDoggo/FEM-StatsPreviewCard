@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://crazeddoggo.github.io/FrontendMentor-StatsPreviewCard-Solution/](Test)
+- Live Site URL: https://crazeddoggo.github.io/FrontendMentor-StatsPreviewCard-Solution
 
 ## My process
 
