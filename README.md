@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://crazeddoggo.github.io/FrontendMentor-StatsPreviewCard-Solution
+- Solution: https://github.com/CrazedDoggo/FEM-StatsPreviewCard
+- Live Site URL: https://crazeddoggo.github.io/FEM-StatsPreviewCard/
 
 ## My process
 
