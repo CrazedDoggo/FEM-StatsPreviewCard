@@ -1,6 +1,7 @@
 /*ATTRIBUTION ||*/
 
 .attribution { 
+    animation: slide-in-top 2s ease-in forwards;
     font-size: 11px; text-align: center;
     margin: 1em; 
 }
@@ -38,6 +39,7 @@ body {
     font-size: var(--base-font-size);
     font-family: var(--main-font);
     height: 100vh;
+    overflow: hidden;
 }
 
 .gap {
@@ -87,21 +89,23 @@ ul {
 
 /*LAYOUT ||*/
 
+.container {
+    overflow: hidden;
+    margin-bottom: 25%;
+    min-height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 .card {
+    animation: slide-in-left 2s ease-in forwards;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "image image"
     "text text";
     gap: 1em;
-}
-
-.container {
-    margin-bottom: 25%;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
 }
 
 .card__text {
@@ -135,5 +139,25 @@ ul {
     }
     .stats {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*ANIMATIONS ||*/
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(75vw)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes slide-in-top {
+    from {
+        transform: translateY(25vh);
+    }
+    to {
+        transform: translateY(0);
     }
 }
